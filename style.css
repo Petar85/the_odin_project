@@ -1,0 +1,151 @@
+/* * {
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+h1 {
+    color: chartreuse;
+    text-align: center;
+    padding: 40px;
+    background-color: lightgray;
+    text-shadow: 5px, 2px, 5px whitesmoke;
+}
+
+h2 {
+    /* text-align: center; */
+    /* background-color: aquamarine; */
+    
+    /* text-shadow: 5px, 2px, 5px whitesmoke; */
+    /* display: inline-block; */
+
+/*
+.header {
+    text-align: center;
+}
+
+.main {
+    margin-top: 30px;
+    text-align: center;
+}
+
+a {
+    background-color: aqua;
+} */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid black; */
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.rectangular-one {
+    height: 400px;
+    background-color: #1F2937;
+    
+}
+
+.logo {
+    font-size: 20px;
+    color: #F9FAF8; 
+}
+
+.rectangular-two {
+    height: 300px;
+}
+
+.rectangular-three {
+    height: 200px;
+}
+
+.rectangular-four {
+    height: 150px;
+}
+
+li a {
+    font-size: 14px;
+    color: #E5E7EB;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    padding: 90px 135px 20px 135px;
+    height: 255px;
+}
+
+.img {
+    /* flex: 1 1 auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 80%;
+    background-color: gray;
+}
+
+.img-content {
+    flex:  1 1 60%; 
+    /* height: 60px; */
+    /* margin-right: 80px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+ul {
+    display:flex;
+    list-style: none;
+    
+}
+
+.flex-container {
+    margin: 0 150px 0 150px;
+}
+
+.btn {
+    padding:  3px 18px;
+    background-color: rgb(41, 58, 209);
+    color:#F9FAF8;
+    margin-top: 5px;
+    border-radius: 7px;
+}
+
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-iformation {
+    flex-basis: 20%;
+    display: flex;
+    margin-left: 10px;
+}
+
+.secondary-text {
+    font-size: 14px;
+    color: #E5E7EB;
+    
+}
+
+.hero-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
